@@ -16,4 +16,7 @@ console.log(idadeSomada)
 
 /* cd C:\Users\guste\Documents\GitHub\FrontEnd\JavaScript 
    node .\1-meuPrimeiroPrograma.js 
+
+   Select, Ctrl + K + C     comenta setor selecionado
+   Select, Ctrl + K + U     remove comentarios
 */
