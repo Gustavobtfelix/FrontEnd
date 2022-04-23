@@ -19,4 +19,5 @@ console.log(idadeSomada)
 
    Select, Ctrl + K + C     comenta setor selecionado
    Select, Ctrl + K + U     remove comentarios
+   Select, Shift + Alt + F  Formata texto
 */
