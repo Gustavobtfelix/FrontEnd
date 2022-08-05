@@ -1,9 +1,26 @@
-body {
+
+#banner {
+    width: 100%;
+    height: 350px;
+}
+.principal { /* principal é uma classe que se encontra no css*/
     background: #CCCCCC;
 }
 p {
     text-align: center; /*propriedade do css que vai ser utilizado no html*/
 }
+#missao { /*missao é um id que se encontra no html*/
+    font-size: 20px
+}
 em strong {
     color: red;
+}
+.itens {
+    font-style: italic;
+}
+.beneficios {
+    background: #FFFFFF;
+}
+h2 {
+    text-align: center;
 }
