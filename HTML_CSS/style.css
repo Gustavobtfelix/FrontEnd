@@ -1,0 +1,9 @@
+body {
+    background: #CCCCCC;
+}
+p {
+    text-align: center; /*propriedade do css que vai ser utilizado no html*/
+}
+em strong {
+    color: red;
+}
