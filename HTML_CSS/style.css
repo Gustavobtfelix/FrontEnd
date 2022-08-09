@@ -5,6 +5,13 @@
 }
 .principal { /* principal é uma classe que se encontra no css*/
     background: #CCCCCC;
+    padding: 30px;
+}
+.titulo-principal {
+    padding-left: 20px;
+}
+.titulo-centralizado {
+    text-align: center;
 }
 p {
     text-align: center; /*propriedade do css que vai ser utilizado no html*/
@@ -20,13 +27,13 @@ em strong {
 }
 .beneficios {
     background: #FFFFFF;
-}
-h2 {
-    text-align: center;
+    padding: 20px;
 }
 ul {
-    display: inline-block;
+    display: inline-block; /* remove quebra de linha para que o elemento seguinte fique ao lado da lista*/
     vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
 .imagemBeneficios{
     width: 50%;
