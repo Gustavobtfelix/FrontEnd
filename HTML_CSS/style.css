@@ -24,3 +24,10 @@ em strong {
 h2 {
     text-align: center;
 }
+ul {
+    display: inline-block;
+    vertical-align: top;
+}
+.imagemBeneficios{
+    width: 50%;
+}
