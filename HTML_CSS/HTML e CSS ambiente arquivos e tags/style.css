@@ -1,7 +1,8 @@
 body{
     background-color: #000000;
-    color: #A8AF2F;   
+    color: #78A1BB;   
 }
 strong{
-    color: #E09179;
+    color: #EBF5EE;
+    border: 1px solid #EBF5EE;
 }
