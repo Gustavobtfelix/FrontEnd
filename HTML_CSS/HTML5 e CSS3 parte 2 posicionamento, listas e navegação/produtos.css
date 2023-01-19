@@ -43,6 +43,8 @@ nav a {
     padding: 30px 20px;
     box-sizing: border-box;
     /* border-box makes that border is the class/image, not the window. */
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
 .produtos h2 {
