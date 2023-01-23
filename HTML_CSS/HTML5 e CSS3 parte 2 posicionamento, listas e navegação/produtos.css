@@ -3,6 +3,13 @@ header {
     padding: 20px 0;
 }
 
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
 nav {
     position: absolute;
     top: 110px;
@@ -22,10 +29,9 @@ nav a {
     text-decoration: none;
 }
 
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+nav a:hover {
+    color: #ff0000;
+    text-decoration: underline;
 }
 
 .produtos {
@@ -45,6 +51,20 @@ nav a {
     /* border-box makes that border is the class/image, not the window. */
     border: 2px solid #000000;
     border-radius: 10px;
+}
+
+.produtos li:hover {
+    /* when mouse is over the image */
+    border-color: #ff0000;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos li:active {
+    /* when mouse is clicking the image */
+    border-color: #0000ff;
 }
 
 .produtos h2 {
