@@ -30,26 +30,24 @@
 <main>
     <form>
         <label for="nomeSobrenome">Nome e sobrenome</label>
-        <input type="text" id="nomeSobrenome" class="input-padrao">
+        <input type="text" id="nomeSobrenome" class="input-padrao" required>
 
         <label for="email">Email</label>
-        <input type="text" id="email" class="input-padrao" placeholder="email@dominio.com">
+        <input type="email" id="email" class="input-padrao" placeholder="email@dominio.com" required>
 
         <label for="telefone">Telefone</label>
-        <input type="text" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
+        <input type="tel" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
 
         <label for="mensagem">Mensagem</label>
-        <textarea cols="70" rows="10" id="mensagem"></textarea>
+        <textarea cols="70" rows="10" id="mensagem" required></textarea>
 
         <div>
             <p>Como você prefere ser contatado?</p>
             <label class="checkbox"><input type="radio" name="selecionado" value="email">Email</label>
 
-
             <label class="checkbox"><input type="radio" name="selecionado" value="telefone">Telefone</label>
 
-
-            <label class="checkbox"><input type="radio" name="selecionado" value="whatsapp">Whatsapp</label>
+            <label class="checkbox"><input type="radio" name="selecionado" value="whatsapp" checked>Whatsapp</label>
 
         </div>
 
