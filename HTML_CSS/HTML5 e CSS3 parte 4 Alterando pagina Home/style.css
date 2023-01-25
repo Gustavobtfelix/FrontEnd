@@ -185,7 +185,8 @@ th {
 	margin: 0 20px 20px 0;
 }
 
-.mapa {
+.mapa,
+.beneficios {
 	padding: 3em 0;
 }
 
@@ -196,13 +197,26 @@ th {
 	font-size: 1.1em;
 }
 
-.beneficios li {
-	font-size: 1.1em;
-	font-weight: bold;
+.conteudo-beneficios {
+	width: 640px;
 }
 
-.imagembeneficios {
-	width: 60%;
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	/* considera até espaços entre uma string e outra */
+	vertical-align: top;
+	/* define a posição vertical dos elementos em display */
+}
+
+.itens {
+	line-height: 1.5em;
+	font-size: 1.1em;
+}
+
+.itens:first-child {
+	/* , .itens:last-child, .itens:nth-child(2n)*/
+	font-weight: bold;
 }
 
 .video {
