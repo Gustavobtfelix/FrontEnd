@@ -52,3 +52,18 @@ form input {
     background: #ff0000;
     transform: scale(1.2);
 }
+
+table {
+    margin: 20px 0 40px
+}
+
+thead, tfoot {
+    background: #555555;
+    color: #fff;
+    font-weight: bold;
+}
+
+td, th {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+}
