@@ -1,0 +1,50 @@
+body {
+    background-color: #000000;
+    margin: 200px 100px 100px 100px;
+}
+
+.texto-principal {
+
+    text-align: center;
+    position: relative;
+    padding: 20px 0;
+    display: inline;
+}
+
+.texto-principal h1 {
+    font-size: 30px;
+    color: #78A1BB;
+}
+
+.texto-principal strong {
+    color: #EBF5EE;
+    border: 1px solid #EBF5EE;
+}
+
+.texto-principal p {
+    font-size: 20px;
+    color: #EBF5EE;
+    margin: 20px 120px;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #78A1BB;
+    margin: 0 auto;
+    display: block;
+    text-align: right;
+}
+
+footer a {
+    text-align: center;
+    background-color: #78A1BB;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
