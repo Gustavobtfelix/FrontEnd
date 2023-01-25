@@ -185,6 +185,17 @@ th {
 	margin: 0 20px 20px 0;
 }
 
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	font-style: bold;
+	text-align: center;
+	font-size: 1.1em;
+}
+
 .beneficios li {
 	font-size: 1.1em;
 	font-weight: bold;
