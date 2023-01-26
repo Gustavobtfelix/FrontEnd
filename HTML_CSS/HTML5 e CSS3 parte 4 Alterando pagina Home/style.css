@@ -167,6 +167,11 @@ th {
 	/* 2em = 2 vezes o tamanho original*/
 	margin: 0 0 1em;
 	clear: left;
+	transition: 400ms;
+}
+
+.titulo-principal:hover{
+	color: rgba(0,0,0,0.3);
 }
 
 .titulo-principal:first-letter {
@@ -245,6 +250,11 @@ th {
 
 .imagem-beneficios {
 	width: 60%;
+	transition: 400ms;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
 }
 
 .video {
