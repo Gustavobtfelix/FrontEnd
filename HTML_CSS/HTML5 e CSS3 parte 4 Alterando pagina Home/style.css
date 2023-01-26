@@ -61,7 +61,6 @@ nav a:hover {
 
 .produtos li:hover {
 	border-color: #C78C19;
-	background: radial-gradient(#BBBBBB, #FEFEFE 40%)
 }
 
 .produtos li:active {
