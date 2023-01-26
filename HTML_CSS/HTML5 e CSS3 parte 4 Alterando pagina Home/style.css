@@ -169,6 +169,10 @@ th {
 	clear: left;
 }
 
+.titulo-principal:first-letter {
+	font-weight: bold;
+}
+
 .principal p {
 	margin: 0 0 1em;
 }
@@ -233,6 +237,10 @@ th {
 .itens:first-child {
 	/* , .itens:last-child, .itens:nth-child(2n)*/
 	font-weight: bold;
+}
+
+.itens:before {
+	content: "🟊 ";
 }
 
 .imagem-beneficios {
