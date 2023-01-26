@@ -263,6 +263,24 @@ th {
 	margin: 2em auto;
 }
 
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .mapa-conteudo, .conteudo-beneficios, .video {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}
+
 /*
 main > p{
 	seleciona todos os elementos p que estão diretamente dentro de main 
