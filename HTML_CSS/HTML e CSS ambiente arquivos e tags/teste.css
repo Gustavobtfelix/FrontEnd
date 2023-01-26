@@ -1,0 +1,10 @@
+body {
+    background-color: blue;
+}
+
+p {
+    width: 300px;
+    background-color: red;
+    margin: 0 auto;
+    padding: 10px 0 10px 10px;
+}
