@@ -37,6 +37,10 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+.caixa-produtos {
+	width: 100%;
+}
+
 .produtos {
 	width: 940px;
 	margin: 0 auto;
@@ -57,6 +61,7 @@ nav a:hover {
 
 .produtos li:hover {
 	border-color: #C78C19;
+	background: radial-gradient(#BBBBBB, #FEFEFE 40%)
 }
 
 .produtos li:active {
@@ -170,8 +175,8 @@ th {
 	transition: 400ms;
 }
 
-.titulo-principal:hover{
-	color: rgba(0,0,0,0.3);
+.titulo-principal:hover {
+	color: rgba(0, 0, 0, 0.3);
 }
 
 .titulo-principal:first-letter {
@@ -251,7 +256,8 @@ th {
 .imagem-beneficios {
 	width: 60%;
 	transition: 400ms;
-	box-shadow: 10px 10px 10px #000000; /* https://www.w3schools.com/css/css3_shadows.asp: */
+	box-shadow: 10px 10px 10px #000000;
+	/* https://www.w3schools.com/css/css3_shadows.asp: */
 }
 
 .imagem-beneficios:hover {
@@ -264,21 +270,41 @@ th {
 }
 
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .mapa-conteudo, .conteudo-beneficios, .video {
+
+	.caixa,
+	.principal,
+	.mapa-conteudo,
+	.conteudo-beneficios,
+	.video,
+	.caixa-produtos,
+	.produtos,
+	.produto-descricao,
+	img {
 		width: auto;
 	}
 
 	h1 {
-		text-align: center;;
+		text-align: center;
+		;
 	}
 
 	nav {
 		position: static;
 	}
 
-	.beneficios, .imagem-beneficios {
+	.beneficios,
+	.imagem-beneficios {
 		width: 100%;
 	}
+
+	.produtos li, .produtos {
+		padding: auto;
+		margin: auto;
+		border-radius: auto;
+		border: auto;
+		padding: auto;
+	}
+
 }
 
 /*
