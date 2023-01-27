@@ -1,10 +1,13 @@
 body {
-    background-color: blue;
+    background-color: green;
 }
 
 p {
     width: 300px;
+    height: 100px;
     background-color: red;
+    border: 10px solid blue;
     margin: 0 auto;
-    padding: 10px 0 10px 10px;
+    padding: 10px 0 10px 10px; /* top right bottom left */
+    box-sizing: border-box; /* make width and height accurate on webbrowser  */
 }
