@@ -42,6 +42,14 @@ body {
     width: 75vw;
     height: 100vh;
 
+    position: absolute;
+    left: -100vw;
+    transition: .25s;
+}
+
+.menu-lateral--ativo {
+    left: 0;
+    transition: .25s;
 }
 
 .menu-lateral-logo {
