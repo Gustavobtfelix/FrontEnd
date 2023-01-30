@@ -1,15 +1,36 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
 body {
     background-color: #1D232A;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'icones', sans-serif;
     color: #FFFFFF;
 }
 
 .cabecalho {
     box-sizing: border-box;
     display: flex;
+    /*Elementos que são flex container podem usar propriedades de disposição de elementos como justify-content e align-items.*/
     justify-content: space-between;
-    align-items: center; /*altera box*/
+    align-items: center;
+    /*altera box*/
     background-color: #15191C;
     padding: 8px 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+
+.cabecalho-menu i:before {
+    content: "\e904";
+    font-size: 24px;
+}
+
+.cabecalho-notificacao i:before {
+    content: "\e906";
+    font-size: 24px;
+}
+
+.cabecalho-logo {
+    width: 40px;
 }
