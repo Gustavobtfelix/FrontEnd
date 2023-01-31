@@ -106,7 +106,6 @@ body {
 
 .principal {
     padding: 24px 16px;
-    background: red;
 }
 
 .titulo-pagina {
@@ -123,16 +122,21 @@ body {
 
 .cartao-conteudo {
     padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
 
 .cartao-titulo {
     font-size: 1.2em;
     font-weight: 700;
+    grid-column: span 2;
 }
 
 .cartao-perfil {
     color: #95999C;
     font-size: 0.9rem;
+    grid-column: span 2;
 }
 
 .cartao-info {
@@ -160,6 +164,7 @@ body {
     height: 40px;
     border-radius: 10px;
     font-size: 0.9rem;
+    grid-column: span 2;
 }
 
 .cartao-botao--play:before {
