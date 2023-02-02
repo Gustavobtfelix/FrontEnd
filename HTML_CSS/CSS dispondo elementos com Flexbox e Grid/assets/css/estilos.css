@@ -9,6 +9,13 @@ body {
     color: #FFFFFF;
 }
 
+@media screen and (min-width: 1440px) {
+    .body {
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
+}
+
 .cabecalho {
     box-sizing: border-box;
     display: flex;
@@ -33,6 +40,32 @@ body {
 
 .cabecalho-logo {
     width: 40px;
+}
+
+.cabecalho-perfil {
+    display:none;
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        background-color: #1D232A;
+        display:grid;
+        grid-template-columns: 1fr auto;
+        padding: 16px 60px;
+        box-sizing: border-box;        
+    }
+    .cabecalho-menu {
+        display: none;
+    }
+    .cabecalho-logo {
+        display: none;
+    }
+    .cabecalho-perfil {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        column-gap: 8px;
+        align-items: center;
+    }
 }
 
 .menu-lateral {
