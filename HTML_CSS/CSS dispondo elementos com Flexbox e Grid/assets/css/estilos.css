@@ -9,10 +9,11 @@ body {
     color: #FFFFFF;
 }
 
+
 @media screen and (min-width: 1440px) {
-    .body {
+    body {
         display: grid;
-        grid-template-columns: auto 1fr;
+        grid-template-columns: 1fr auto;
     }
 }
 
@@ -55,6 +56,8 @@ body {
         padding: 16px 60px;
         height: 80px;
         box-sizing: border-box;
+        grid-column: 2;
+        grid-row: 1;
     }
 
     .cabecalho-menu {
@@ -165,7 +168,9 @@ body {
 @media screen and (min-width: 1440px) {
     .menu-lateral {
         position: static;
-        width: 200px
+        width: 200px;
+        grid-column: 1;
+        grid-row: 1 / span 2;
     }
 }
 
@@ -191,6 +196,7 @@ body {
         grid-template-columns: auto 1fr auto;
         column-gap: 32px;
         padding: 16px 60px;
+        grid-column: 2;
     }
 }
 
