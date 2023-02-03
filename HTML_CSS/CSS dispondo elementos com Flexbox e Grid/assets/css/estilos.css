@@ -190,6 +190,10 @@ body {
     font-weight: 700;
 }
 
+.cartao-imagem--desktop {
+    display: none;
+}
+
 @media screen and (min-width: 1440px) {
 
     .destaque-video {
@@ -236,7 +240,17 @@ body {
     }
 
     .cartao--destaque {
+        margin-bottom: 0; /* Não funciona pela ordem de chamada dos itens. ps: corrigir em proximo commit */
         grid-column: 1 / span 2;
+    }
+
+    .cartao-imagem--mobile {
+        display: none;
+    }
+
+
+    .cartao-imagem--desktop {
+        display: block;
     }
 
     .carta--recentes {
