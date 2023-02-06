@@ -194,70 +194,6 @@ body {
     display: none;
 }
 
-@media screen and (min-width: 1440px) {
-
-    .destaque-video {
-        grid-area: destaque-video
-    }
-
-    .videos-recentes {
-        grid-area: videos-recentes
-    }
-
-    .secao-videos {
-        grid-area: secao-videos;
-    }
-
-    .destaque-produtos {
-        grid-area: destaque-produtos;
-    }
-
-    .produtos-recentes {
-        grid-area: produtos-recentes;
-    }
-
-    .secao-produtos {
-        grid-area: secao-produtos;
-    }
-
-    .principal {
-        display: grid;
-        grid-template-columns: auto 1fr auto;
-        grid-template-areas:
-            "titulo-pagina titulo-pagina titulo-pagina"
-            "destaque-video destaque-video videos-recentes"
-            "secao-videos secao-videos secao-videos"
-            "produtos-recentes destaque-produtos destaque-produtos"
-            "secao-produtos secao-produtos secao-produtos"
-        ;
-        column-gap: 32px;
-        padding: 16px 60px;
-        grid-column: 2;
-    }
-
-    .titulo-pagina {
-        grid-column: 1 / span 3;
-    }
-
-    .cartao--destaque {
-        margin-bottom: 0; /* Não funciona pela ordem de chamada dos itens. ps: corrigir em proximo commit */
-        grid-column: 1 / span 2;
-    }
-
-    .cartao-imagem--mobile {
-        display: none;
-    }
-
-
-    .cartao-imagem--desktop {
-        display: block;
-    }
-
-    .carta--recentes {
-        grid-column: 3;
-    }
-}
-
 .cartao {
     width: 100%;
     border-radius: 15px;
@@ -335,6 +271,11 @@ body {
     display: none;
 }
 
+.secao {
+    display: grid;
+    gap: 16px;
+}
+
 @media screen and (min-width: 1440px) {
     .cartao--recentes {
         display: grid;
@@ -344,6 +285,7 @@ body {
         width: 256px;
         padding: 16px;
         box-sizing: border-box;
+        align-self: flex-start;
     }
 
     .cartao--recentes .cartao-titulo {
@@ -387,7 +329,83 @@ body {
 
 }
 
-.secao {
-    display: grid;
-    gap: 16px;
+
+@media screen and (min-width: 1440px) {
+    
+    .secao-produtos {
+        grid-area: secao-produtos;
+    }
+
+    .principal {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        grid-template-areas:
+            "titulo-pagina titulo-pagina titulo-pagina"
+            "destaque-video destaque-video videos-recentes"
+            "secao-videos secao-videos secao-videos"
+            "produtos-recentes destaque-produtos destaque-produtos"
+            "secao-produtos secao-produtos secao-produtos"
+        ;
+        column-gap: 32px;
+        padding: 16px 60px;
+        grid-column: 2;
+    }
+
+    .titulo-pagina {
+        grid-column: 1 / span 3;
+    }
+
+    .cartao--destaque {
+        margin-bottom: 0; /* Não funciona pela ordem de chamada dos itens. ps: corrigir em proximo commit */
+        grid-column: 1 / span 2;
+    }
+
+    .cartao-imagem--mobile {
+        display: none;
+    }
+
+    .cartao-botao--destaque {
+        grid-column: auto;
+        padding: 16px 8px;
+    }
+
+    .cartao-imagem--desktop {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .secao {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .titulo-secao {
+        grid-column: 1 / span 4;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .destaque-video {
+        grid-area: destaque-video
+    }
+
+    .videos-recentes {
+        grid-area: videos-recentes
+    }
+
+    .secao-videos {
+        grid-area: secao-videos;
+    }
+
+    .destaque-produtos {
+        grid-area: destaque-produtos;
+    }
+
+    .produtos-recentes {
+        grid-area: produtos-recentes;
+    }
+
+    .secao-produtos {
+        grid-area: secao-produtos;
+    }
 }
