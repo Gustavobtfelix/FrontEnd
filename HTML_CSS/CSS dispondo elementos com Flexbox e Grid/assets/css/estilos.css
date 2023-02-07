@@ -229,10 +229,16 @@ body {
     display: flex;
     align-items: center;
     color: #95999C;
+    grid-row: 3;
 }
 
 .cartao-info--tempo:before {
     content: "\e90c";
+    margin-right: 8px;
+}
+
+.cartao-info--valor:before {
+    content: "\e905";
     margin-right: 8px;
 }
 
@@ -255,6 +261,11 @@ body {
 
 .cartao-botao--play:before {
     content: "\e90b";
+    font-size: 24px;
+}
+
+.cartao-botao--compra:before {
+    content: "\e901";
     font-size: 24px;
 }
 
