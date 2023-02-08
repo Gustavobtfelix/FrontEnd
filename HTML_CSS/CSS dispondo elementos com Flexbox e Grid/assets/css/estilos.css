@@ -281,6 +281,15 @@ body {
     font-size: 24px;
 }
 
+.cartao-botao--picos:before {
+    content: "\e909";
+    font-size: 24px;
+}
+
+.cartao-botao--picos:hover:before{
+    content: "\e908";
+}
+
 .cartao-botao--destaque {
     width: 100%;
     grid-column: span 2;
