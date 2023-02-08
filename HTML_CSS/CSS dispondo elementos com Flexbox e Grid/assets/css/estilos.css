@@ -220,9 +220,21 @@ body {
     grid-column: span 2;
 }
 
+.cartao-titulo--compras {
+    font-size: 0.9em;
+    color: #95999C;
+}
+
 .cartao-perfil {
     color: #95999C;
     font-size: 0.9rem;
+}
+
+.cartao-perfil--compras {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: 700;
+    grid-column: span 2;
 }
 
 .cartao-info {
