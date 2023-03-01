@@ -75,3 +75,23 @@ body {
     font-size: 0.75rem;
     color: var(--cinza-secundario);
 }
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-size: 3rem;
+    font-weight: var(--peso-titulo);
+    color: var(--branco-item-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
