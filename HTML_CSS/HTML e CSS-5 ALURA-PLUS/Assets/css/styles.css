@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 :root {
-    --branco-item-principal: #FFFFFF;
+    --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
@@ -17,11 +17,11 @@
 
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--branco-item-principal);
+    color: var(--branco-principal);
     font-family: var(--fonte-corpo);
     font-weight: var(--peso-secundario);
     font-size: 1rem;
-    
+
 }
 
 .principal {
@@ -58,7 +58,7 @@ body {
 
 .container__botao {
     background-color: var(--botao-azul);
-    color: var(--branco-item-principal);
+    color: var(--branco-principal);
     border-radius: 0.5rem;
     padding: 1em;
     display: block;
@@ -68,7 +68,7 @@ body {
 
 .botao_secundario {
     background-color: transparent;
-    border: 0.125rem solid var(--branco-item-principal)
+    border: 0.125rem solid var(--branco-principal)
 }
 
 .container__aviso {
@@ -88,10 +88,45 @@ body {
 .descricao__titulo {
     font-size: 3rem;
     font-weight: var(--peso-titulo);
-    color: var(--branco-item-principal);
+    color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
 
 .descricao__texto {
     color: var(--cinza-secundario);
+}
+
+.container__descricao {
+    padding: 2em
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.secundario__imagem {
+    width: 60%;
+}
+
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 3rem;
+    color: var(--branco-principal);
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item {
+    font-size: 2rem;
+    color: var(--branco-principal);
 }
