@@ -18,7 +18,7 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
-    font-family: var(--fonte-corpo);
+    font-family: var(--fonte-principal);
     font-weight: var(--peso-secundario);
     font-size: 1rem;
 
@@ -129,4 +129,42 @@ body {
 .lista__item {
     font-size: 2rem;
     color: var(--branco-principal);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+}
+.rodape__logo {
+    width: 5.5%;
+    align-self: center;
+}
+
+.rodape__lista {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin: 1em 0;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.lista__link a:active {
+    color: var(--cinza-secundario);
+}
+
+.rodape__texto {
+    margin: 1em 5em;
+    align-self: center;
+    color: var(--cinza-secundario);
+    font-size: 0.875rem;
 }
